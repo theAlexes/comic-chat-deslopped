@@ -1,8 +1,28 @@
 # Microsoft Comic Chat
 
-Microsoft Comic Chat is a Microsoft-developed IRC chat client released in 1996 that rendered conversations as automatically generated comic strips. Instead of plain text, users communicated through cartoon avatars with messages displayed in speech bubbles inside dynamically composed comic panels. The application used an expert system to determine character placement, gestures, facial expressions, balloon shape, and panel layout in real time. It shipped as part of Internet Explorer 3.0 and was later bundled with Windows 98 and MSN before being discontinued in the early 2000s.
+Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat client released in 1996 that rendered conversations as automatically generated comic strips. Instead of plain text, users communicated through cartoon avatars with messages displayed in speech bubbles inside dynamically composed comic panels. The application used an expert system to determine character placement, gestures, facial expressions, balloon shape, and panel layout in real time. It shipped as part of Internet Explorer 3.0 and was later bundled with Windows 98 and MSN before being discontinued in the early 2000s.
 
 ![Comic Chat](v1.0-pre/client/readme.gif)
+
+## Table of Contents
+
+- [Microsoft Comic Chat](#microsoft-comic-chat)
+  - [Table of Contents](#table-of-contents)
+  - [How It Works](#how-it-works)
+  - [Download Comic Chat](#download-comic-chat)
+  - [IRC servers](#irc-servers)
+  - [Repository Structure](#repository-structure)
+    - [Version notes](#version-notes)
+  - [Building](#building)
+    - [Original build (Visual C++ 4.x)](#original-build-visual-c-4x)
+    - [Modernized build (Visual Studio 2022)](#modernized-build-visual-studio-2022)
+    - [Cloud builds](#cloud-builds)
+    - [A note on the modernized folders](#a-note-on-the-modernized-folders)
+    - [Original build requirements](#original-build-requirements)
+  - [History](#history)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Trademarks](#trademarks)
 
 ## How It Works
 
@@ -16,6 +36,17 @@ As users type messages, each Comic Chat client automatically determines:
 - Zoom factor for each panel
 
 The application connects to standard IRC servers and is fully interoperable with text-based IRC clients. Non-Comic Chat users are automatically assigned characters so the entire conversation is rendered graphically.
+
+## Download Comic Chat
+
+If you want to jump right in and try Comic Chat without cloning the source and building it yourself, you have two options.
+
+1. You can download Microsoft Comic Chat 2.5 from [Mermaid Elizabeth's Microsoft Chat Resources Link Page](https://mermeliz.com/). This is the version that shipped in the early 2000s.
+2. You can download an [unofficial modern build](releases/tag/unofficial-modern-builds-2026-07) of version 1.0 and version 2.5b1. These versions have been modernized with support for high-resolution monitors.
+
+## IRC servers
+
+Mermaid Elizabeth maintains a list of [IRC servers](https://mermeliz.com/srvr_rms.htm) that work with Comic Chat. 
 
 ## Repository Structure
 
@@ -102,7 +133,7 @@ These changes are intentionally **left as an exercise for the reader**: they dem
 
 ## History
 
-Comic Chat was originally a Microsoft Research project. The 1.0 release shipped in June 1996 bundled with Internet Explorer 3.0 and could run standalone or embedded as an OLE server within the browser. Version 2.0 shipped with Internet Explorer 4.0 and Windows 98 in 1997–1998, adding multi-server support, OLE scripting, and the Comic Chat SDK for third-party bots and extensions. The application was discontinued in the early 2000s as graphical chat gave way to instant messaging.
+Comic Chat was originally a Microsoft Research project developed by DJ Kurlander. The 1.0 release shipped in June 1996 bundled with Internet Explorer 3.0 and could run standalone or embedded as an OLE server within the browser. Version 2.0 shipped with Internet Explorer 4.0 and Windows 98 in 1997–1998, adding multi-server support, OLE scripting, and the Comic Chat SDK for third-party bots and extensions. The application was discontinued in the early 2000s as graphical chat gave way to instant messaging.
 
 ## License
 
