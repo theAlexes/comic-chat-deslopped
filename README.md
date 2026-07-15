@@ -42,7 +42,7 @@ The application connects to standard IRC servers and is fully interoperable with
 If you want to jump right in and try Comic Chat without cloning the source and building it yourself, you have two options.
 
 1. You can download Microsoft Comic Chat 2.5 from [Mermaid Elizabeth's Microsoft Chat Resources Link Page](https://mermeliz.com/). This is the version that shipped in the early 2000s.
-2. You can download an [unofficial modern build](releases/tag/unofficial-modern-builds-2026-07) of version 1.0 and version 2.5b1. These versions have been modernized with support for high-resolution monitors.
+2. You can download an [unofficial modern build](https://github.com/microsoft/comic-chat/releases/tag/unofficial-modern-builds-2026-07) of version 1.0 and version 2.5b1. These versions have been modernized with support for high-resolution monitors.
 
 ## IRC servers
 
