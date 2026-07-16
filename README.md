@@ -4,11 +4,16 @@ Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat cli
 
 ![Comic Chat](v1.0-pre/client/readme.gif)
 
+## About This Repository
+
+This repository is an archive of the Comic Chat source code. It is not actively maintained.
+
 ## Table of Contents
 
 - [Microsoft Comic Chat](#microsoft-comic-chat)
+  - [About This Repository](#about-this-repository)
   - [Table of Contents](#table-of-contents)
-  - [How It Works](#how-it-works)
+  - [How Comic Chat Works](#how-comic-chat-works)
   - [Download Comic Chat](#download-comic-chat)
   - [IRC servers](#irc-servers)
   - [Repository Structure](#repository-structure)
@@ -24,7 +29,7 @@ Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat cli
   - [Contributing](#contributing)
   - [Trademarks](#trademarks)
 
-## How It Works
+## How Comic Chat Works
 
 As users type messages, each Comic Chat client automatically determines:
 
