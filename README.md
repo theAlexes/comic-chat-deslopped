@@ -46,7 +46,7 @@ If you want to jump right in and try Comic Chat without cloning the source and b
 
 ## IRC servers
 
-Mermaid Elizabeth maintains a list of [IRC servers](https://mermeliz.com/srvr_rms.htm) that work with Comic Chat. 
+Mermaid Elizabeth maintains a list of [IRC servers](https://mermeliz.com/srvr_rms.htm) that work with Comic Chat.
 
 ## Repository Structure
 
