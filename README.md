@@ -1,12 +1,12 @@
-# Microsoft Comic Chat
+# Microsoft Comic Chat - Deslopped
 
 Microsoft Comic Chat is a Microsoft-developed Internet Relay Chat (IRC) chat client released in 1996 that rendered conversations as automatically generated comic strips. Instead of plain text, users communicated through cartoon avatars with messages displayed in speech bubbles inside dynamically composed comic panels. The application used an expert system to determine character placement, gestures, facial expressions, balloon shape, and panel layout in real time. It shipped as part of Internet Explorer 3.0 and was later bundled with Windows 98 and MSN before being discontinued in the early 2000s.
 
 ![Comic Chat](v1.0-pre/client/readme.gif)
 
-## About This Repository
+## About This Fork
 
-This repository is an archive of the Comic Chat source code. It is not actively maintained.
+This fork has had the AI slop forcibly removed, because we are part of the [Fuck Off AI Code](http://txtpunk.com/foac) movement?
 
 ## Table of Contents
 
@@ -20,9 +20,7 @@ This repository is an archive of the Comic Chat source code. It is not actively 
     - [Version notes](#version-notes)
   - [Building](#building)
     - [Original build (Visual C++ 4.x)](#original-build-visual-c-4x)
-    - [Modernized build (Visual Studio 2022)](#modernized-build-visual-studio-2022)
     - [Cloud builds](#cloud-builds)
-    - [A note on the modernized folders](#a-note-on-the-modernized-folders)
     - [Original build requirements](#original-build-requirements)
   - [History](#history)
   - [License](#license)
@@ -47,7 +45,7 @@ The application connects to standard IRC servers and is fully interoperable with
 If you want to jump right in and try Comic Chat without cloning the source and building it yourself, you have two options.
 
 1. You can download Microsoft Comic Chat 2.5 from [Mermaid Elizabeth's Microsoft Chat Resources Link Page](https://mermeliz.com/). This is the version that shipped in the early 2000s.
-2. You can download an [unofficial modern build](https://github.com/microsoft/comic-chat/releases/tag/unofficial-modern-builds-2026-07) of version 1.0 and version 2.5b1. These versions have been modernized with support for high-resolution monitors.
+2. You can emulate a Windows 98 machine and get something approaching the real-life experience of using the program.
 
 ## IRC servers
 
